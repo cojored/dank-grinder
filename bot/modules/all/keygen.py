@@ -1,6 +1,6 @@
-import rsa
+import rsa as rs
 
-publicKey, privateKey = rsa.newkeys(2048)
+publicKey, privateKey = rs.newkeys(2048)
 
 pk = open("/config/workspace/bot/keys/privateKey.txt", "w")
 pk.write(privateKey.save_pkcs1().decode())
