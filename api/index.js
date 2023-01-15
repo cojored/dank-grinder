@@ -8,7 +8,7 @@ const invites = {
   944306568399302736: "cJTpdnEtUJ",
   944306638117036132: "gjJtV3vSvA",
 };
-944306502578085928
+
 app.use(express.json());
 
 app.post("/getUid", function (req, res) {
